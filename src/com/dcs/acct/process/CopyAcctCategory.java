@@ -43,7 +43,7 @@ public class CopyAcctCategory extends CustomProcess {
 		caToCopy.setC_AcctSchema_ID(FromSchema_ID);
 		caToCopy.saveEx();
 
-		return "Copied";
+		return "@Processed@";
 	}
 	
 	MProductCategoryAcct getAccounting(int Category_ID, int Schema_ID) {
