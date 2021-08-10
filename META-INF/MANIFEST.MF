@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Category: idempiere-plugin
+Bundle-ManifestVersion: 2
+Bundle-Name: iDempiere Acct Plugin
+Bundle-SymbolicName: com.dcsla.acct
+Bundle-Version: 8.2.0.qualifier
+Bundle-Vendor: Double Click Sistemas <https://www.dcs.com.ve>
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
+ org.adempiere.plugin.utils;bundle-version="8.2.0",
+ org.adempiere.ui.zk;bundle-version="8.2.0",
+ org.apache.commons.lang3,
+ zcommon,
+ zel,
+ zhtml,
+ zk,
+ zkbind,
+ zkplus,
+ zul,
+ zweb
+Import-Package: org.osgi.service.event
+Service-Component: OSGI-INF/ModelFactory.xml,
+ OSGI-INF/EventFactory.xml,
+ OSGI-INF/CalloutFactory.xml,
+ OSGI-INF/ProcessFactory.xml,
+ OSGI-INF/FormFactory.xml
+Bundle-ClassPath: .,
+ lib/freemarker.jar
+Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.dcsla.acct
