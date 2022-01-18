@@ -18,6 +18,7 @@
 
 package com.dcsla.acct.component;
 
+import com.dcs.acct.process.CopyAccountProducts;
 import com.dcs.acct.process.CopyAcctCategory;
 import com.dcsla.acct.base.CustomProcessFactory;
 
@@ -38,6 +39,7 @@ public class ProcessFactory extends CustomProcessFactory {
 	@Override
 	protected void initialize() {
 		registerProcess(CopyAcctCategory.class);
+		registerProcess(CopyAccountProducts.class);
 	}
 
 }
