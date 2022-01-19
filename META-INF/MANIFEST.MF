@@ -3,12 +3,12 @@ Bundle-Category: idempiere-plugin
 Bundle-ManifestVersion: 2
 Bundle-Name: iDempiere Acct Plugin
 Bundle-SymbolicName: com.dcsla.acct
-Bundle-Version: 8.2.0.qualifier
+Bundle-Version: 9.0.0.qualifier
 Bundle-Vendor: Double Click Sistemas <https://www.dcs.com.ve>
 Bundle-ActivationPolicy: lazy
-Require-Bundle: org.adempiere.base;bundle-version="8.2.0",
- org.adempiere.plugin.utils;bundle-version="8.2.0",
- org.adempiere.ui.zk;bundle-version="8.2.0",
+Require-Bundle: org.adempiere.base;bundle-version="9.0.0",
+ org.adempiere.plugin.utils;bundle-version="9.0.0",
+ org.adempiere.ui.zk;bundle-version="9.0.0",
  org.apache.commons.lang3,
  zcommon,
  zel,
